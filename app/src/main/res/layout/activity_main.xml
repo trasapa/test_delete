@@ -22,5 +22,11 @@
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             android:id="@+id/button"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="11dp" tools:layout_editor_absoluteY="183dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView2" app:layout_constraintHorizontal_bias="0.5"/>
 
 </android.support.constraint.ConstraintLayout>
